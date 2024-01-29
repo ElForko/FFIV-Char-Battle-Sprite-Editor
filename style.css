@@ -1,0 +1,127 @@
+
+
+/* Outer */
+/*{{{*/
+
+body
+{
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+.main
+{
+	width: 1000px;
+	max-width: 100%;
+	font-size: 16px;
+}
+
+/*}}}*/
+
+.generatorSaveAncDiv
+{
+	height: 30px;
+	margin-top: 20px;
+}
+
+
+.unAnchor
+{
+	color: #000;
+	text-decoration: none;
+}
+.fauxButton
+{
+	display: inline-block;
+	background-color: #ddd;
+	border: 1px solid #888;
+	border-bottom: 2px solid #000;
+	border-radius: 0.4em;
+	padding: 0.2em 0.4em;
+	user-select: none;
+	vertical-align: text-top;
+}
+.fauxButton:hover
+{
+	background-color: #bbb;
+	cursor: pointer;
+}
+.fauxButton:active
+{
+	border: 1px solid #888;
+	border-top: 2px solid #000;
+}
+.fauxButtonDisabled
+{
+	margin-top: 1px;
+	border-bottom: 1px solid black;
+	border-color: #aaa;
+	color: #888;
+	background-color: #eee;
+	pointer-events: none;
+}
+
+.charLink
+{
+	color: #008;
+	text-decoration: underline #00f;
+}
+.charLink:hover
+{
+	cursor: pointer;
+}
+.charLink.selected
+{
+	color: #06f;
+	text-decoration: underline #8fc;
+	user-select: none;
+}
+
+.hoverCursor:hover
+{
+	cursor: pointer;
+}
+
+.hoverColor
+{
+	background-color: var(--normCol);
+}
+.hoverColor:hover
+{
+	cursor: pointer;
+	background-color: var(--hoverCol);
+}
+
+.pushButton
+{
+	background-color: #eee;
+	display: inline-block;
+	padding: 7px;
+	margin-top: 10px;
+	margin-left: 10px;
+	border: 1px solid black;
+	border-radius: 13px;
+	box-shadow: 0px 5px 0px black;
+	position: relative;
+	top: 0px;
+	user-select: none;
+	transition:
+		box-shadow 0.09s,
+		top 0.09s;
+
+}
+.pushButton:hover
+{
+	cursor: pointer;
+}
+.pushButtonDown
+{
+	top: 4px;
+	box-shadow: 0px 1px 0px black;
+}
+.pushButtonDown:hover
+{
+	cursor: default;
+}
+
