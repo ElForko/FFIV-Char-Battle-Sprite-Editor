@@ -2,7 +2,7 @@
  # FFIV Character Battle Sprite Editor
 
 
-This tool lets you quickly and easily adjust the colors of character's battle sprites in FFIV.
+This tool (available [here](https://elforko.github.io/FFIV-Char-Battle-Sprite-Editor/)) lets you quickly and easily adjust the colors of character's battle sprites in FFIV.
 
 What makes this different from a standard SNES sprite editor?  Let's say you want to change Dark Knight Cecil's armor color: just click on his "Armor" button and start playing with the color sliders.  All 5 of the palette colors that make up Cecil's armor will be adjusted simultaneously while maintaining their relative Brightness and Saturation.
 
